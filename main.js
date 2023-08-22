@@ -40,7 +40,9 @@ window.addEventListener("online", function(){
     online();
 });
 
-
+window.addEventListener("offline", function(){
+    offline();
+});
 
 reload.onclick = function(){
     window.location.reload()
